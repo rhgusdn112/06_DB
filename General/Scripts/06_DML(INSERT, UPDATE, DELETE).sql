@@ -1,6 +1,7 @@
 --- *** DML(Data Manipulation Language) : 데이터 조작 언어
 
--- 테이블에 값을 삽입하거나(INSERT), 수정하거나(UPDATE), 삭제(DELETE)하는 구문 // CRUD - CREATE/SELECT/UPDATE/DELETE
+-- 테이블에 값을 삽입하거나(INSERT), 수정하거나(UPDATE), 삭제(DELETE)하는 구문 
+--		// CRUD - CREATE/SELECT/UPDATE/DELETE
 
 -- SELECT도 DML에 포함되긴 하지만 DQL이라는 것으로 분리해서 보기도 한다!!
 	--> DQL(Data Query Language : 데이터 질의 언어)
