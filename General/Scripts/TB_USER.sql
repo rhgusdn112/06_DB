@@ -35,5 +35,6 @@ AND   USER_PW = '?';
 
 ROLLBACK;
 
-
+COMMIT;
+SELECT * FROM TB_USER;
 

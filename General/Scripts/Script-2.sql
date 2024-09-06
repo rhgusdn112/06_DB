@@ -71,10 +71,10 @@ ORDER BY USER_NO ASC;
 -- USER_NO를 입력 받아 일치하는 User 삭제(DELETE)
 DELETE
 FROM TB_USER
-WHERE USER_NO = ?;
+WHERE USER_NO != 1;
 -- 일치하는 USER_NO가 있을 경우 : 1행 삭제
 -- 일치하는 USER_NO가 없을 경우 : 0행 삭제
-
+COMMIT;
 ROLLBACK;
 
 -- ID,PW가 일치하는 회원의 USER_NO(PK) 조회
@@ -94,3 +94,15 @@ WHERE USER_NO = '8';
 SELECT COUNT(*)
 FROM TB_USER
 WHERE USER_ID = 'user02';
+
+SELECT *
+FROM TB_USER
+ORDER BY 1 ASC;
+
+SELECT *
+FROM TB_USER
+WHERE USER_NO = TO_NUMBER('24');
+
+SELECT *
+FROM TB_USER;
+
