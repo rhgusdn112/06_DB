@@ -46,7 +46,8 @@ VALUES(SEQ_TODO_NO.NEXTVAL, '테스트4', '테스트4 입니다.', DEFAULT, DEFA
 
 COMMIT;
 
-
+SELECT *
+FROM TB_TODO;
 
 -- 할일 목록 조회
 SELECT 
